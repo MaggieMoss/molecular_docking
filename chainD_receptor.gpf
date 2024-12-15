@@ -1,0 +1,29 @@
+parameter_file boron-silicon-atom_par.dat
+npts 64 68 112
+gridfld chainD_receptor.maps.fld
+spacing 0.375
+receptor_types OA HD A NA N C SA
+ligand_types HD C A N NA OA F P SA S Cl CL Br BR I Si B
+receptor chainD_receptor.pdbqt
+gridcenter 27.101 37.067 51.927
+smooth 0.500
+map chainD_receptor.HD.map
+map chainD_receptor.C.map
+map chainD_receptor.A.map
+map chainD_receptor.N.map
+map chainD_receptor.NA.map
+map chainD_receptor.OA.map
+map chainD_receptor.F.map
+map chainD_receptor.P.map
+map chainD_receptor.SA.map
+map chainD_receptor.S.map
+map chainD_receptor.Cl.map
+map chainD_receptor.CL.map
+map chainD_receptor.Br.map
+map chainD_receptor.BR.map
+map chainD_receptor.I.map
+map chainD_receptor.Si.map
+map chainD_receptor.B.map
+elecmap chainD_receptor.e.map
+dsolvmap chainD_receptor.d.map
+dielectric -42.000
